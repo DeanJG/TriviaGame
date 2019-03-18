@@ -14,3 +14,7 @@ p {
 #gameTitle {
     font-size: 55px;
 }
+#gameEndDisplay {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
