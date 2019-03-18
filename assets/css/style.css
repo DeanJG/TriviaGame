@@ -1,0 +1,16 @@
+.container {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+p {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+#gameTimer {
+    font-size: 30px;
+}
+#gameTitle {
+    font-size: 55px;
+}

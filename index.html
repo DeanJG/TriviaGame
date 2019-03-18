@@ -8,7 +8,160 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+    <div id="gameDisplay" class="container">
+        <div class="row">
+            <div id="gameTitle" class="col-sm">The Quiz: An Art</div>
+        </div>
+        <div class="row">
+            <div id="gameTimer" class="col-sm">Time Remaining: 45 Seconds</div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p id="qOne">What Color Is The Sky?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qOneAns" value="false"> Red
+                    <input type="radio" name="qOneAns" value="false"> Green
+                    <input type="radio" name="qOneAns" value="false"> Pink
+                    <input type="radio" name="qOneAns" value="true"> Blue
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qTwo">Which Tool Is NOT Related To Front-End Development?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qTwoAns" value="false"> HTML
+                    <input type="radio" name="qTwoAns" value="false"> CSS
+                    <input type="radio" name="qTwoAns" value="false"> Javascript
+                    <input type="radio" name="qTwoAns" value="true"> MySQL
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qThree">Which One Is The Greatest Band Of All-Time?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qThreeAns" value="false"> A Band
+                    <input type="radio" name="qThreeAns" value="false"> Some Other Band
+                    <input type="radio" name="qThreeAns" value="true"> Queen
+                    <input type="radio" name="qThreeAns" value="false"> Another Random Band
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qFour">Who Invented The Telephone?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qFourAns" value="false"> Paul Galvin
+                    <input type="radio" name="qFourAns" value="true"> Alexander Graham Bell
+                    <input type="radio" name="qFourAns" value="false"> Joseph Galvin
+                    <input type="radio" name="qFourAns" value="false"> Steve Jobs
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qFive">How Many Planets Are In Our Solar System?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qFiveAns" value="false"> Seven
+                    <input type="radio" name="qFiveAns" value="true"> Eight
+                    <input type="radio" name="qFiveAns" value="false"> Nine
+                    <input type="radio" name="qFiveAns" value="false"> Ten
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qSix">Where Is The Sea Of Tranquility</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qSixAns" value="false"> Michigan
+                    <input type="radio" name="qSixAns" value="false"> The Middle-East
+                    <input type="radio" name="qSixAns" value="true"> The Moon
+                    <input type="radio" name="qSixAns" value="false"> Not Listed
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qSeven">Which Of These Is NOT An Ocean?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qSevenAns" value="false"> Pacific
+                    <input type="radio" name="qSevenAns" value="false"> Indian
+                    <input type="radio" name="qSevenAns" value="true"> Meridian
+                    <input type="radio" name="qSevenAns" value="false"> Arctic
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qEight">Arachibutyrophobia Is The Fear Of What?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qEightAns" value="false"> Spider Bites
+                    <input type="radio" name="qEightAns" value="false"> Fatty Foods
+                    <input type="radio" name="qEightAns" value="true"> Peanut Butter Sticking To The Roof Of Your Mouth
+                    <input type="radio" name="qEightAns" value="false"> None Of These, This Is Weird...
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qNine">What Do You Call A Group Of Lions?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qNineAns" value="false"> Dangerous
+                    <input type="radio" name="qNineAns" value="false"> A Glutton
+                    <input type="radio" name="qNineAns" value="true"> A Pride
+                    <input type="radio" name="qNineAns" value="false"> A Pack
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm">
+                <p id="qTen">What Do You Call A Pony With A Sore Throat?</p>
+            </div>
+            <div class="col-sm-12">
+                <form>
+                    <input type="radio" name="qTenAns" value="false"> Under The Weather
+                    <input type="radio" name="qTenAns" value="false"> Lame
+                    <input type="radio" name="qTenAns" value="false"> Sick I Guess?
+                    <input type="radio" name="qTenAns" value="true"> ...A Little Hoarse
+                </form>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div id="gameEndDisplay" class="col-sm">
+                <button onclick="gameEnd()">Finish</button>
+            </div>
+        </div>
+    </div>
 
 
     <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
